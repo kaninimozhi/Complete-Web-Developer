@@ -8,30 +8,30 @@ A simple HTML page with just the basic minimmum tags
 HTML page explainhing the various components of a HTML page such as HTML, Head & Body tags
 <hr>
 
-4 - Head Tag
+<b> 4 - Head Tag </b>
 A simple HTML boiler plate for all your HJTML coding and an external CSS implementation
 <hr>
 
-5 - Common Elements
+<b> 5 - Common Elements </b>
 Some basic HTML body elements such as p, hr, 
 <hr>
 
-6 - CSS Intro & Resume
+<b> 6 - CSS Intro & Resume </b> 
 Build your own Resume course project 
 <hr>
 
-8 - Resume with CSS
+<b> 8 - Resume with CSS </b>
 Make your Resume site more elegant and pretty using CSS
 <hr>
 
-9 - JS Intro
+<b> 9 - JS Intro </b>
 A simple JavaScript implementation with HTMl
 <hr>
 
-12 - Arithmetic OPerators
+<b> 12 - Arithmetic OPerators </b>
 Use Arithmetic Operators in JavaScript
 <hr>
 
-13 - JS Calculator
+<b> 13 - JS Calculator</b> 
 Create a simple calculator using JavaScript & HTML
 <hr>
