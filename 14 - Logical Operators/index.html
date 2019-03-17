@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comparison Operators</title>
+</head>
+<body>
+            
+    <p id = varx style="text-align: center; font-size: 25px"> Variable x = </p>
+    <p id = vary style="text-align: center; font-size: 25px"> Variable y = </p>
+    <hr>
+    <center> 
+    <p id=eq style="font-size: 20px"> x == y: </p>
+    <p id=teq style="font-size: 20px"> x === y: </p>
+    <p id=neq style="font-size: 20px"> x != y : </p>
+    <p id=nteq style="font-size: 20px"> x !== y : </p>
+
+    <p id=gr style="font-size: 20px"> x > y : </p>
+    <p id=ls style="font-size: 20px"> x < y : </p>
+
+    <p id=gre style="font-size: 20px"> x >= y : </p>
+    <p id=lse style="font-size: 20px"> x <= y : </p>
+    </center>
+    <script>    
+        var x=10, y=10;  //variable declaration
+        document.getElementById('varx').innerHTML += x;
+        document.getElementById('vary').innerHTML += y;
+        document.getElementById('eq').innerHTML += x == y ;
+        document.getElementById('teq').innerHTML += x === y ;
+        document.getElementById('neq').innerHTML += x != y ;
+        document.getElementById('nteq').innerHTML += x !== y ;
+
+        document.getElementById('gr').innerHTML += x > y ;
+        document.getElementById('ls').innerHTML += x < y ;  
+
+        document.getElementById('gre').innerHTML += x >= y ;  
+        document.getElementById('lse').innerHTML += x <= y;  
+    </script>
+
+</body>
+</html>

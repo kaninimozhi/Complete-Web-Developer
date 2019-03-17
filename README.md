@@ -1,11 +1,11 @@
 # Complete Web Developer
 <b> 2 - Hello World: </b>
-A simple HTML page with just the basic minimmum tags
+A simple HTML page with just the basic minimum tags
 
 <hr>
 
 <b> 3 - HTML works </b>
-HTML page explainhing the various components of a HTML page such as HTML, Head & Body tags
+HTML page explaining the various components of a HTML page such as HTML, Head & Body tags
 <hr>
 
 <b> 4 - Head Tag </b>
@@ -28,10 +28,14 @@ Make your Resume site more elegant and pretty using CSS
 A simple JavaScript implementation with HTMl
 <hr>
 
-<b> 12 - Arithmetic OPerators </b>
+<b> 12 - Arithmetic Operators </b>
 Use Arithmetic Operators in JavaScript
 <hr>
 
 <b> 13 - JS Calculator</b> 
 Create a simple calculator using JavaScript & HTML
+<hr>
+
+<b> 14 - Logical Operators</b> 
+Understand logical & Comparison operations in JavaScript 
 <hr>
