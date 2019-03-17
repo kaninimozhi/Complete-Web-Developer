@@ -1,0 +1,27 @@
+h1 {
+    color: rgb(14, 100, 170);
+    text-align: center
+}
+
+#mytitle {
+    color: blueviolet;           
+    text-align: center;
+}
+
+#channel{
+    color: chocolate;
+    font-size: 50px;
+    text-align: center;
+}
+
+p.center{
+    text-align: center;
+}
+
+.small{
+    font-size: 10px;
+}
+
+.large{
+    font-size: 20px;
+}
