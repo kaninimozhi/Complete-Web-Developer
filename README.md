@@ -25,7 +25,7 @@ Make your Resume site more elegant and pretty using CSS
 <hr>
 
 <b> 9 - JS Intro </b>
-A simple JavaScript implementation with HTMl
+A simple JavaScript implementation with HTML
 <hr>
 
 <b> 12 - Arithmetic Operators </b>
@@ -38,4 +38,8 @@ Create a simple calculator using JavaScript & HTML
 
 <b> 14 - Logical Operators</b> 
 Understand logical & Comparison operations in JavaScript 
+<hr>
+
+<b> 15 - if .. else</b> 
+Combine arithmetic operators with conditional operator and determine result using If.. else statement in JavaScript
 <hr>

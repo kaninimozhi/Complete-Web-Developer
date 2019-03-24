@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>If.. Else</title>
+</head>
+
+<body>
+    <p> Enter a number</p>
+    <input id ='num'type="text" value =0>
+    <button id = "submit" onclick="calc()"> Submit </button>
+    <p id = 'result'></p>
+</body>
+
+<script>
+    function calc(){
+        var number = Number (document.getElementById('num').value);
+        var reminder = number % 2; //reminder
+        //document.getElementById('result').innerHTML = reminder;
+
+        if (reminder == 0){
+            document.getElementById('result').innerHTML = "Number is even";
+        }else{
+            document.getElementById('result').innerHTML = "Number is odd";
+        }
+    }
+</script>
+</html>
