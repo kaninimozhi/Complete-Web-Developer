@@ -43,3 +43,7 @@ Understand logical & Comparison operations in JavaScript
 <b> 15 - if .. else</b> 
 Combine arithmetic operators with conditional operator and determine result using If.. else statement in JavaScript
 <hr>
+
+<b> 15 - Nested if/b> 
+Implement multiple if .. else for effective decision making
+<hr>
