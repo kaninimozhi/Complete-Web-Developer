@@ -1,0 +1,47 @@
+<!-- Vowel & Consonents:
+vowels: a e i o u
+rest are all consonents
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vowel vs conconents</title>
+</head>
+
+<body>
+    <p> Enter a character</p>
+    <input id='alpha' type="text">
+    <button id="submit" onclick="calc()"> Submit </button>
+    <p id='result'></p>
+
+    <script>
+        function calc() {
+            var alpha = document.getElementById('alpha').value;
+
+            switch (alpha) {
+
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    document.getElementById('result').innerHTML = "this is a vowel";
+                    break;
+
+                default:
+                    document.getElementById('result').innerHTML = "this is a consonent";
+                    break;
+
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>

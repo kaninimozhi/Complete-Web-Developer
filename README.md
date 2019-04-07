@@ -47,3 +47,7 @@ Combine arithmetic operators with conditional operator and determine result usin
 <b> 16 - Nested if </b> 
 Implement multiple if .. else for effective decision making
 <hr>
+
+<b> 17 - Nested if </b> 
+Learn switch statements for advanced decision making 
+<hr>
