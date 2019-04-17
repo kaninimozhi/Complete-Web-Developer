@@ -51,3 +51,7 @@ Implement multiple if .. else for effective decision making
 <b> 17 - Nested if </b> 
 Learn switch statements for advanced decision making 
 <hr>
+
+<b> 18 - JavaScript Arrays </b> 
+Learn your first data structure and implement it in code
+<hr>
