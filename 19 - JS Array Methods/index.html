@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array Methods</title>
+</head>
+
+<body>
+    <input type="text" id="data">
+    <button onclick="arrayPush()"> Push </button>
+    <button onclick="arrayPop()"> Pop </button>
+    <button onclick="arrayShift()"> Shift </button>
+    <button onclick="arrayUnShift()"> Unshift </button>
+
+    <div>
+        <input type="text" id="indexData" value="change">
+        <button onclick="updateIndex()"> Get data at Index 0</button>
+
+    </div>
+
+    <div>
+        <button onclick="spliceArray()"> Splice Array</button>
+        <p id="result"></p>
+        <p id="spliced"></p>
+        <p id="removed"></p>
+    </div>
+
+
+   
+
+    <script>
+        var myArray = [10, 20, 30, 40];
+        function arrayPush() {
+            myArray.push(document.getElementById('data').value);
+            document.getElementById('result').innerHTML = myArray;
+        }
+
+        function arrayPop() {
+            myArray.pop();
+            document.getElementById('result').innerHTML = myArray;
+        }
+
+        function arrayUnShift() {
+            myArray.unshift(document.getElementById('data').value);
+            document.getElementById('result').innerHTML = myArray;
+        }
+
+        function arrayShift() {
+            myArray.shift();
+            document.getElementById('result').innerHTML = myArray;
+        }
+
+        function updateIndex() {
+            myArray[0] = document.getElementById('indexData').value;
+            document.getElementById('result').innerHTML = myArray;
+        }
+
+        function spliceArray() {
+            document.getElementById('result').innerHTML = myArray; //berfore 
+            var removedDataArray = myArray.splice(2, 2, 50, 60) ;//splice
+            document.getElementById('spliced').innerHTML = myArray; //after splicing
+            document.getElementById('removed').innerHTML = removedDataArray; //removed /spliced
+        }
+    </script>
+</body>
+
+</html>

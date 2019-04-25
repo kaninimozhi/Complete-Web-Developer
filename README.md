@@ -57,3 +57,7 @@ Learn switch statements for advanced decision making
 <b> 18 - JavaScript Arrays </b> 
 Learn your first data structure and implement it in code
 <hr>
+
+<b> 19 - JavaScript Array Methods </b> 
+Learn various array operations using JavaScript Array methods
+<hr>
