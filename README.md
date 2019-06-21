@@ -60,4 +60,7 @@ Learn your first data structure and implement it in code
 
 <b> 19 - JavaScript Array Methods </b> 
 Learn various array operations using JavaScript Array methods
+
+<b> 20 - Course Project - Planner App 1 </b> 
+Lets make a basic Planner (To-Do) Application with only HTML & JavaScript
 <hr>

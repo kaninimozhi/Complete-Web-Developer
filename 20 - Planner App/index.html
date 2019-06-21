@@ -1,0 +1,46 @@
+<!-- 
+> Input box to enter an item
+> populate a list
+> Remove an item from list
+> auto arrange
+> CSS implent
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Planner App</title>
+    
+</head>
+
+<body>
+    <input id ="myItem" type="text" placeholder="Enter your item">
+    <button onclick="onAddItem()"> Add </button>
+    <ul id ="myList"> 
+        <!-- <li> item 1</li>
+            <li> my data <li>
+        <li> item 2</li> -->
+
+    </ul>
+     
+</body>
+
+<script>
+      function onAddItem(){
+          var myItem = document.getElementById('myItem').value;
+
+          // myItem -> li -> ul
+          var myListItem = document.createElement('li');
+          myListItem.appendChild(document.createTextNode(myItem)) ;
+
+          var myList = document.getElementById('myList');
+          myList.appendChild(myListItem);
+      }
+     
+</script>
+
+</html>
