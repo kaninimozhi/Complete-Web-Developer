@@ -64,3 +64,7 @@ Learn various array operations using JavaScript Array methods
 <b> 20 - Course Project - Planner App 1 </b> 
 Lets make a basic Planner (To-Do) Application with only HTML & JavaScript
 <hr>
+
+<b> 21 - Course Project - Planner App 2 </b> 
+Learn to use JS Keyboard events and make the planner app better
+<hr>

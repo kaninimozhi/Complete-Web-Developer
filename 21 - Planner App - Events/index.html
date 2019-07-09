@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <input id ="myItem" type="text" placeholder="Enter your item">
+    <input id ="myItem" type="text" placeholder="Enter your item" onkeyup="myKey(event)">
     <button onclick="onAddItem()"> Add </button>
     <ul id ="myList"> 
         <!-- <li> item 1</li>
@@ -39,6 +39,17 @@
 
           var myList = document.getElementById('myList');
           myList.appendChild(myListItem);
+
+          document.getElementById('myItem').value = "";
+          //myItem = "";
+      }
+
+      function myKey(myEvent){
+          console.log(myEvent);
+          if (myEvent.keyCode === 13){
+              console.log("Enter key detected");
+              onAddItem();
+          }
       }
      
 </script>
